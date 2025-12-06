@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Moccet Labs - Medical AI Expert Network",
+  title: "moccet labs - Medical AI Expert Network",
   description: "Connect with medical experts for AI training and annotation projects",
 };
 

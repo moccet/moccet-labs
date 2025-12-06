@@ -11,7 +11,7 @@ export default function Navigation() {
   return (
     <header className="px-10 py-4 flex items-center justify-between border-b border-gray-200 bg-white">
       <Link href="/" className="text-2xl font-black text-black tracking-tight hover:opacity-80 transition-opacity">
-        moccet-labs
+        moccet labs
       </Link>
 
       <nav className="hidden md:flex items-center gap-9">

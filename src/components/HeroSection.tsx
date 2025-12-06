@@ -50,7 +50,7 @@ export default function HeroSection() {
 
         <p className="text-xl text-white/95 max-w-[600px] mx-auto mb-10 leading-snug drop-shadow-lg">
           Find board-certified physicians for your healthcare AI training needs.
-          Available only on moccet-labs.
+          Available only on moccet labs.
         </p>
 
         <div className="flex flex-col md:flex-row gap-4 justify-center">

@@ -11,7 +11,7 @@ export default function ResearchPage() {
       {/* Hero Section */}
       <section className="px-10 py-16 md:py-24 max-w-6xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          Moccet Labs powers medical AI advancement through expert physicians and
+          moccet labs powers medical AI advancement through expert physicians and
           frontier clinical data
         </h1>
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
@@ -47,45 +47,55 @@ export default function ResearchPage() {
 
       {/* Featured Research Areas */}
       <section className="px-10 pb-16 max-w-6xl mx-auto">
-        <div className="mb-12 text-center">
+        <div className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Our Research Areas
+            Research Areas
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl">
             Advancing medical AI through rigorous evaluation, expert annotation,
             and specialized model development
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <ResearchCard
-            title="Medical AI Benchmarks"
-            description="APEX evaluates frontier models across clinical specialties, measuring real-world medical task performance with validated datasets from leading institutions."
-            icon="📊"
-            gradient="bg-gradient-to-br from-blue-500 to-blue-600"
-            link="/apex"
-          />
+          <Link
+            href="/apex"
+            className="block border border-gray-200 rounded-lg p-6 bg-white"
+          >
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Medical AI Benchmarks
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              APEX evaluates frontier models across clinical specialties, measuring real-world medical task performance with validated datasets from leading institutions.
+            </p>
+          </Link>
 
-          <ResearchCard
-            title="Clinical Data Labeling"
-            description="High-quality medical annotation by board-certified physicians across imaging, clinical notes, and structured health data."
-            icon="🏥"
-            gradient="bg-gradient-to-br from-teal-500 to-teal-600"
-          />
+          <div className="border border-gray-200 rounded-lg p-6 bg-white">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Clinical Data Labeling
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              High-quality medical annotation by board-certified physicians across imaging, clinical notes, and structured health data.
+            </p>
+          </div>
 
-          <ResearchCard
-            title="Medical LLM Training"
-            description="Expert-validated training data for medical language models, covering diagnosis, treatment planning, and clinical documentation."
-            icon="🧠"
-            gradient="bg-gradient-to-br from-purple-500 to-purple-600"
-          />
+          <div className="border border-gray-200 rounded-lg p-6 bg-white">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Medical LLM Training
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Expert-validated training data for medical language models, covering diagnosis, treatment planning, and clinical documentation.
+            </p>
+          </div>
 
-          <ResearchCard
-            title="Specialty Models"
-            description="Domain-specific AI development for radiology, pathology, cardiology, and other medical specialties with subspecialty expertise."
-            icon="⚕️"
-            gradient="bg-gradient-to-br from-indigo-500 to-indigo-600"
-          />
+          <div className="border border-gray-200 rounded-lg p-6 bg-white">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Specialty Models
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Domain-specific AI development for radiology, pathology, cardiology, and other medical specialties with subspecialty expertise.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -168,18 +178,18 @@ export default function ResearchPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="px-10 pb-20 max-w-4xl mx-auto text-center">
-        <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-12 text-white">
-          <h2 className="text-3xl font-bold mb-4">
-            Partner with Moccet Labs
+      <section className="px-10 pb-20 max-w-6xl mx-auto">
+        <div className="border border-gray-200 rounded-xl p-12 text-center bg-white">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Partner with moccet labs
           </h2>
-          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Join leading AI companies in building the future of medical AI with
             our expert network and frontier clinical data.
           </p>
           <Link
             href="/all-roles"
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            className="inline-block bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-900 transition-colors"
           >
             Get Started
           </Link>

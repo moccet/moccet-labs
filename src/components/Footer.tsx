@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between mb-12">
         <div className="flex-1 mb-8 md:mb-0">
           <h3 className="text-2xl font-black mb-2 tracking-tight">
-            moccet-labs
+            moccet labs
           </h3>
           <div className="text-sm text-gray-500">San Francisco, CA</div>
         </div>
@@ -15,37 +15,37 @@ export default function Footer() {
               For companies
             </h4>
             <a
-              href="#"
+              href="/contact"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Get in touch
             </a>
             <a
-              href="#"
+              href="/medical-data"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Medical data
             </a>
             <a
-              href="#"
+              href="/guide"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Guide
             </a>
             <a
-              href="#"
+              href="/process"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Process
             </a>
             <a
-              href="#"
+              href="/data-pipelines"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Data pipelines
             </a>
             <a
-              href="#"
+              href="/incentives"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Incentives
@@ -57,19 +57,19 @@ export default function Footer() {
               For physicians
             </h4>
             <a
-              href="#"
+              href="/all-roles"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Apply
             </a>
             <a
-              href="#"
+              href="/opportunities"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Opportunities
             </a>
             <a
-              href="#"
+              href="/payment"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Payment
@@ -79,22 +79,22 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold mb-5 text-black">Support</h4>
             <a
-              href="mailto:support@moccet-labs.com"
+              href="mailto:support@moccet.com"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
-              support@moccet-labs.com
+              support@moccet.com
             </a>
             <a
-              href="mailto:press@moccet-labs.com"
+              href="mailto:press@moccet.com"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
-              press@moccet-labs.com
+              press@moccet.com
             </a>
             <a
-              href="mailto:gtm@moccet-labs.com"
+              href="mailto:gtm@moccet.com"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
-              gtm@moccet-labs.com
+              gtm@moccet.com
             </a>
           </div>
 
@@ -103,13 +103,13 @@ export default function Footer() {
               Resources
             </h4>
             <a
-              href="#"
+              href="/careers"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Careers
             </a>
             <a
-              href="#"
+              href="/blog"
               className="block text-gray-500 no-underline text-sm mb-3 hover:text-black transition-colors"
             >
               Blog
@@ -119,7 +119,7 @@ export default function Footer() {
       </div>
 
       <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center max-w-[1400px] mx-auto gap-4">
-        <div className="text-[13px] text-gray-400">© 2025 moccet-labs</div>
+        <div className="text-[13px] text-gray-400">© 2025 moccet labs</div>
 
         <div className="flex gap-4">
           <a

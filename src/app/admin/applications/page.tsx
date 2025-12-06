@@ -15,14 +15,14 @@ async function getAllApplications(): Promise<Application[]> {
     redirect('/auth/login');
   }
 
-  // Check if user is admin (email ends with @moccet-labs.com)
+  // Check if user is admin (email ends with @moccet.com)
   const { data: profile } = await supabase
     .from('user_profiles')
     .select('email')
     .eq('user_id', user.id)
     .single();
 
-  if (!profile || !profile.email.endsWith('@moccet-labs.com')) {
+  if (!profile || !profile.email.endsWith('@moccet.com')) {
     redirect('/dashboard/applications');
   }
 

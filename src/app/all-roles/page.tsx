@@ -55,7 +55,7 @@ export default async function AllRolesPage() {
                 <Link
                   key={role.id}
                   href={`/roles/${role.id}`}
-                  className="block border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow"
+                  className="block border border-gray-200 rounded-lg p-6"
                 >
                   <div className="flex justify-between items-start mb-4">
                     <h2 className="text-xl font-semibold text-gray-900">{role.title}</h2>
