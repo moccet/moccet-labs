@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get your Moccet Labs application up and running in minutes!
+Get your moccet Labs application up and running in minutes!
 
 ## Prerequisites Checklist
 

@@ -19,7 +19,7 @@ When a user submits an application, a rich Slack message will be sent to your ch
 1. Go to [api.slack.com/apps](https://api.slack.com/apps)
 2. Click **"Create New App"**
 3. Choose **"From scratch"**
-4. Name it: `Moccet Labs Applications`
+4. Name it: `moccet Labs Applications`
 5. Select your workspace
 6. Click **"Create App"**
 

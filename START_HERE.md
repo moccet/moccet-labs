@@ -1,6 +1,6 @@
-# 🚀 START HERE - Moccet Labs Setup Guide
+# 🚀 START HERE - moccet Labs Setup Guide
 
-**Welcome to Moccet Labs!** This is your complete medical AI expert recruitment platform.
+**Welcome to moccet Labs!** This is your complete medical AI expert recruitment platform.
 
 ## ⚡ Quick Start (Choose Your Path)
 

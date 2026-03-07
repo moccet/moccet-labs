@@ -1,4 +1,4 @@
-# Moccet Labs - Medical AI Expert Network
+# moccet Labs - Medical AI Expert Network
 
 A Next.js 14 application for connecting medical experts with AI training and annotation projects. Built with Supabase, TypeScript, and Tailwind CSS.
 

@@ -1,6 +1,6 @@
 {
-    "name": "Moccet",
-    "short_name": "Moccet",
+    "name": "moccet",
+    "short_name": "moccet",
     "icons": [
         {
             "src": "/android-chrome-36x36.png",

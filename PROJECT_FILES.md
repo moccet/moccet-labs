@@ -1,6 +1,6 @@
 # Project Files Overview
 
-Complete guide to all files in the Moccet Labs project.
+Complete guide to all files in the moccet Labs project.
 
 ## 📚 Documentation Files
 

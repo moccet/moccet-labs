@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-Complete checklist for deploying Moccet Labs to production.
+Complete checklist for deploying moccet Labs to production.
 
 ## Pre-Deployment
 
